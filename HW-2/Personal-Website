@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Tables</title>
+
+
+ </head>
+<h1>Will Stewart's Website</h1>
+<nav>
+  <ul>
+    <li><a
+href="#Introduction">Introduction</a></li>
+    <li><a
+href="#Hobbies">Hobbies</a></li>
+    <li><a
+href="#Courses">Courses</a></li>
+</ul>
+</nav>
+<div id="Introduction">
+  <h2>About Me</h2>
+  <p>My name is Will Stewart and I am a junior MIS major from Manasquan New
+    Jersey.I chose MIS as my major because technology is interesting and growing
+    rapidly. My home town of Manasquan is a popular beach destination for tourists
+    in the summer.</p>
+    <a
+    href="http://www.manasquan-nj.gov" target="_blank">Learn more</a>
+    <a href="Page-2">About me</a>
+<div id="Hobbies">
+  <h2>Hobbies</h2>
+  <ol>
+    <li>Sports</li>
+    <li>Weight Lifting</li>
+    <li>Videogames</li>
+    <li>Reading</li>
+    <li>Hanging out with friends</li>
+  </ol>
+
+  <div id="Courses">
+    <h2>Courses</h2> <!--This is a table of my courses for spring semester 2018-->
+    <a href="mycourses.html">Course Table</a>
+
+
+https://www.youtube.com/embed/tgbNymZ7vqY
