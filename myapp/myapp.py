@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
 
@@ -15,6 +15,8 @@ def users(username):
 def form():
     #return "hello world"
     return render_template('form.html')
+
+
 
 
 if __name__ == '__main__':

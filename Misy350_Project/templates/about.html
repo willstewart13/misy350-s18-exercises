@@ -1,0 +1,24 @@
+{% extends "home-movie.html"%}
+{% block title %}Home Page{% endblock %}
+
+{% block head%}
+  {{ super() }}
+{% endblock%}
+
+{% block page_content%}
+  
+  <div class="container">
+    <h1 class="mt-5"><i class="fa fa-address-card-o" aria-hidden="true"></i> About Me</h1>
+    <p>This project was developed by Will Stewart</p>
+    <img src="{{ url_for('static', filename='img/photo.jpg') }}"
+  </div>
+{% endblock%}
+
+{% block scripts%}
+  {{super()}}
+  <script>
+  $(document).ready(function () {
+    $('#developer').tooltip()
+  });
+  </script>
+{% endblock%}
